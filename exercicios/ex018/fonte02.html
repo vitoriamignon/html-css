@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+          @font-face {
+            font-family: 'love';
+            src: url('fonts/love-larry.ttf') format('truetype'); 
+            /*Só consegui puxando a fonte baixada depois que coloquei ela dentro da pasta fonts e usei o atalho ctrl + espaço */
+        }
+        /*Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded - opentype
+        - turetype - aat (Apple Advance Typography)
+        -svg*/
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'love', Times, serif;
+            font-weight: normal;
+            font-size: 3em;
+        }
+    </style>
+
+</head>
+<body>
+  <h1>Título</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa sed, odit reprehenderit aliquid animi tempora, voluptatum earum eos id placeat optio explicabo ducimus! Possimus, veritatis facere. Molestiae, voluptas enim.</p>  
+</body>
+</html>

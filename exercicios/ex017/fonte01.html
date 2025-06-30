@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+             Medidas Absolutas
+            cm Centimetro/ mm milimetro/ in  polegada/ px pixel/ pt ponto/ pc paica
+
+            Medidas Relativas
+             em Medida Relativa ao tamanho Atual da Font/ ex Relativa a Altura Xm/ rem Relativo a Fonta que está configurado no Body/ vw largura da view port 
+
+             16px geralmente é 1em
+             */
+
+             /* Shorthand font
+             Ao invés de usar essa configuração:
+             font-size: 1em;
+             font-weight:normal ;
+             font-style: italic;
+             text-decoration: underline;
+             utilizando a propriedade Shorthand podemos fazer essa configuração somente em uma linha
+             - font-style -> font-weight -> font-size -> font - family
+             Obs.: Aordem é sempre essa do shorthand font! */
+        }
+        h1{
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio illum id dolor, minima explicabo facilis officia consectetur at, ad a expedita! Iure sapiente assumenda porro, incidunt necessitatibus et recusandae fuga? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim officia labore nobis illum in quaerat, saepe voluptas nostrum molestias expedita fugiat eos blanditiis optio, incidunt eligendi unde, facere eveniet esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam deleniti quasi pariatur cumque. Fugiat id cumque quasi similique possimus qui autem eius ipsa hic animi reiciendis, odio omnis explicabo?</p>
+   <h2>Subtítulo do exercício</h2>
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni magnam nesciunt inventore corporis omnis eligendi doloremque illum quisquam voluptate dolorum optio neque libero amet vel quaerat expedita ratione, et alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur placeat cumque earum ad, consectetur numquam saepe maiores voluptates id fugiat molestias rem hic quod ipsum, sequi asperiores, dolor architecto?</p>
+
+</body>
+</html>
